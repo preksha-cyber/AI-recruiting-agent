@@ -44,7 +44,7 @@ Then start locally:
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173).
+Open [http://localhost:5173].
 
 ---
 
@@ -84,21 +84,10 @@ The frontend entry point is `src/main.jsx`, which renders `src/App.jsx`.
 - The API route `api/anthropic.js` is automatically served as a serverless function.
 - `ANTHROPIC_API_KEY` must be set in Vercel for live AI mode to work.
 - If `VITE_ENABLE_LIVE_AI` is unset or `false`, the deployed app runs in demo mode and still works.
+**Live deployment**: https://ai-recruiting-agent.vercel.app (Vercel project: https://vercel.com/preksha-cybers-projects/ai-recruiting-agent)
 
 ---
 
-## Submission-ready checklist
-
-- [x] Working prototype code in the repo
-- [x] Local run instructions
-- [x] Secure live AI proxy for Anthropic
-- [x] Demo mode for no-key usage
-- [x] Deployable Vercel configuration
-- [ ] Live link (add once deployed)
-- [ ] Demo video
-- [ ] One-page write-up
-
----
 
 ## Project structure
 
