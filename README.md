@@ -22,7 +22,7 @@ The app supports both a demo mode with mock data and a secure live AI mode.
 ## Quick start
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/preksha-cyber/AI-recruiting-agent.git>
 cd ai-recruiting-agent
 npm install
 # macOS / Linux
